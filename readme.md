@@ -38,7 +38,7 @@ Magnitude   |   Phrase
 9           |   Séisme capable de tout détruire sur une très vaste zone.
 
 Gérer tous les cas.
-*Utilser autre chose que des if else*
+*Utiliser autre chose que des if else*
 
 ## Exercice 5
 Traduire ce code avec des if et des else :
