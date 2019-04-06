@@ -136,6 +136,21 @@ $maVariable = "Femme";
 		echo "C'est un développeur !!! <br>";
 	}
 
+// exercice 6 : 
+echo "-- Exercice 6 : Traduction de code php en if-else " . "<br>";
+$monAge = 19;
+	if ($monAge >= 18){
+		echo "Tu es majeur<br>";
+	}else{
+		echo "Tu n'es pas majeur<br>";
+	}
+$monAge = 15;
+	if ($monAge >= 18){
+		echo "Tu es majeur<br>";
+	}else{
+		echo "Tu n'es pas majeur<br>";
+	}
+
 ?>
 <!DOCTYPE html>
 <html>
