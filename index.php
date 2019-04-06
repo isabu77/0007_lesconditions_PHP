@@ -166,6 +166,21 @@ $maVariable = true;
 		echo "c'est ok !!<br>";
 	}
 
+// exercice 8:: 
+echo "-- Exercice 8 : Traduction de code php en if-else " . "<br>";
+$maVariable = true;
+	if ($maVariable){
+		echo "c'est ok !!<br>";
+	}else{
+		echo "c'est pas bon !!!<br>";
+	}
+$maVariable = false;
+	if ($maVariable){
+		echo "c'est ok !!<br>";
+	}else{
+		echo "c'est pas bon !!!<br>";
+	}
+
 ?>
 <!DOCTYPE html>
 <html>
