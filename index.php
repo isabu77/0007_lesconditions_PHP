@@ -118,6 +118,23 @@ for ($magnitude = 1 ; $magnitude < 10 ; $magnitude++){
 	}
 }
 
+// exercice 5 : 
+echo "-- Exercice 5 : Traduction de code php en if-else " . "<br>";
+
+$maVariable = "Homme";
+	if ($maVariable != "Homme"){
+		echo "'C'est une développeuse !!! <br>";
+	}
+	else{
+		echo "C'est un développeur !!! <br>";
+	}
+$maVariable = "Femme";
+	if ($maVariable != "Homme"){
+		echo "'C'est une développeuse !!! <br>";
+	}
+	else{
+		echo "C'est un développeur !!! <br>";
+	}
 
 ?>
 <!DOCTYPE html>
