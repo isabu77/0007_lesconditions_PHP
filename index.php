@@ -151,6 +151,21 @@ $monAge = 15;
 		echo "Tu n'es pas majeur<br>";
 	}
 
+// exercice 7 : 
+echo "-- Exercice 7 : Traduction de code php en if-else " . "<br>";
+$maVariable = false;
+	if ($maVariable == false){
+		echo "c'est pas bon !!!<br>";
+	}else{
+		echo "c'est ok !!<br>";
+	}
+$maVariable = true;
+	if ($maVariable == false){
+		echo "c'est pas bon !!!<br>";
+	}else{
+		echo "c'est ok !!<br>";
+	}
+
 ?>
 <!DOCTYPE html>
 <html>
