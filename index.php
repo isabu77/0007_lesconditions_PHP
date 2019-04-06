@@ -31,7 +31,7 @@ else{
 }
 
 // exercice 3 : 
-echo "-- Exercice 3 : " . "<br>";
+echo "-- Exercice 3 : Genre et Age " . "<br>";
 $age = 56;
 $genre = "Homme";
 if ($genre == "Homme"){
@@ -82,6 +82,42 @@ if ($age >= 18){
 }else{
 	echo " et vous êtes mineur <br>";
 }
+
+// exercice 4 : 
+echo "-- Exercice 4 : L'échelle de Richter " . "<br>";
+$magnitude = 0;
+for ($magnitude = 1 ; $magnitude < 10 ; $magnitude++){
+	switch ($magnitude){
+		case 1:
+			echo $magnitude . " : Micro-séisme impossible à ressentir.<br>";
+			break;
+		case 2:
+			echo $magnitude . " : Micro-séisme impossible à ressentir mais enregistrable par les sismomètres.<br>";
+			break;
+		case 3:
+			echo $magnitude . " : Ne cause pas de dégats mais commence à pouvoir être légèrement ressenti.<br>";
+			break;
+		case 4:
+			echo $magnitude . " : Séisme capable de faire bouger des objets mais ne causant généralement pas de dégats.<br>";
+			break;
+		case 5:
+			echo $magnitude . " : Séisme capable d'engendrer des dégats importants sur de vieux bâtiments ou bien des bâtiments présentants des défauts de construction. Peu de dégats sur des bâtiments modernes.<br>";
+			break;
+		case 6:
+			echo $magnitude . " : Fort séisme capable d'engendrer des destructions majeures sur une large distance (180 km) autour de l'épicentre.<br>";
+			break;
+		case 7:
+			echo $magnitude . " : Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance.<br>";
+			break;
+		case 8:
+			echo $magnitude . " : Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres.<br>";
+			break;
+		case 9:
+			echo $magnitude . " : Séisme capable de tout détruire sur une très vaste zone.<br>";
+			break;
+	}
+}
+
 
 ?>
 <!DOCTYPE html>
